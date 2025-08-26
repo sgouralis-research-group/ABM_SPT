@@ -1,4 +1,4 @@
-addpath('2D_MP_v2');
+addpath('2D_MP');
 flag_anchor = true;
 
 chain_length = 2000;
