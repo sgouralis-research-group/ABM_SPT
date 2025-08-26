@@ -1,0 +1,9 @@
+addpath('2D_MP_v2');
+flag_anchor = true;
+
+chain_length = 2000;
+
+[D, variance, chain] = get_D_estimate(M, t_cell, t_global, wx_cell, wy_cell, ...
+                                      hxx_cell, hyy_cell, hxy_cell, ...
+                                      units_time, units_dist, flag_anchor, ...
+                                      chain_length);
