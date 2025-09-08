@@ -6,7 +6,7 @@ This source code does the following:
 1. Generates synthetic ABM data and initializes a MCMC chain.
 2. Runs a tailor-made Gibbs sampler to generate MCMC samples from the posterior distribution.
 3. Tracks MCMC samples and provides fit visualization.
-4. Saves MCMC chain data for further explanation
+4. Saves MCMC chain data for further exploration.
 
 # Instructions (for use with user supplied data)
 ## Provide Data
