@@ -10,7 +10,7 @@ This source code does the following:
 
 # Instructions (for use with user supplied data)
 ## Provide Data
-The file `example_data.txt` contains data propoely formatted for using the code. 
+The file `example_data.txt` contains data properly formatted for using the code. 
 The format is as follows:
 * The first line contains the time units and then the distance units, seperated by a comma
 * The second line encodes the order of the following data which is `m,t,wx,wy,hxx,hyy,hxy`
