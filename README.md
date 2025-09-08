@@ -21,6 +21,6 @@ If your data is in the form of `example_data.txt` then using the function `read_
 
 # Instructions (for use with generated data)
 ## Run code
-Within the folder `2D_MP`, the function `run_chainer(numTraj, len_t_global, flag_anchor)` generates syntethic SPT data with `numTraj` particle trajectories which will have maximum length `len_t_global`. When `flag_anchor` is *TRUE* the analysis is conducted using anchored Brownian motion or and when *FALSE* the analysis is conducted using regular Brownian motion. `flag_anchor` is by default *TRUE*. `run_chainer` returns a struct `chain` containing all the data from the MCMC run. Each call of `run_chainer` generates new synthetic data using the file `generate_synthetic_data.`
+Within the folder `2D_MP`, the function `run_chainer(numTraj, len_t_global, flag_anchor)` generates syntethic data with `numTraj` particle trajectories which will have maximum length `len_t_global`. When `flag_anchor` is *TRUE* the analysis is conducted using anchored Brownian motion or and when *FALSE* the analysis is conducted using regular Brownian motion. `flag_anchor` is by default *TRUE*. `run_chainer` returns a struct `chain` containing all the data from the MCMC run. Each call of `run_chainer` generates new synthetic data using the file `generate_synthetic_data.`
 
 
