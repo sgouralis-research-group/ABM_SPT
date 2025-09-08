@@ -12,9 +12,9 @@ This source code does the following:
 ## Provide Data
 The file `example_data.txt` contains data properly formatted for using the code. 
 The format is as follows:
-* The first line contains the time units and then the distance units, seperated by a comma
-* The second line encodes the order of the following data which is `m,t,wx,wy,hxx,hyy,hxy`
-* The remaining lines contain the data, seperated by commas in the order prescribed by the second line
+* The first line contains the time units and then the distance units, seperated by a comma.
+* The second line encodes the order of the following data which is `m,t,wx,wy,hxx,hyy,hxy`.
+* The remaining lines contain the data, seperated by commas in the order prescribed by the second line.
 
 ## Run code
 If your data is in the form of `example_data.txt` then using the function `read_table(filename)` will read the data from this format, call the function `get_D_estimate` which initializes and runs the Gibbs sampler. `get_D_estimate` provides a posterior mean estimate of the diffusion coefficient, posterior variance estimate of the diffusion coefficient, and returns all the data from the MCMC run to a struct `chain`. The code that runs the Gibbs sampler is in the folder `2D_MP` which stands for "2-dimensional M trajectories." This path is added automatically by `get_D_estimate`.
