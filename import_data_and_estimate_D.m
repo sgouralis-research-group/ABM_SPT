@@ -40,8 +40,8 @@ addpath('2D_MP_v2')
                                                        hyy_cell,hxy_cell, units_time, units_dist , true, length);
 
 disp('================================')
-disp(['mean D = ',   num2str(D_mean), ' ',   units_dist,'^2/', units_time])
-disp(['std D = ',    num2str(D_std), ' ' ,   units_dist,'^2/', units_time])
+disp(['  mean D = ', num2str(D_mean)  , ' ', units_dist,'^2/', units_time])
+disp(['   std D = ', num2str(D_std)   , ' ', units_dist,'^2/', units_time])
 disp(['median D = ', num2str(D_median), ' ', units_dist,'^2/', units_time])
-disp(['iqr D = ',    num2str(D_iqr), ' ',    units_dist,'^2/', units_time])
+disp(['   iqr D = ', num2str(D_iqr)   , ' ', units_dist,'^2/', units_time])
 disp('================================')
