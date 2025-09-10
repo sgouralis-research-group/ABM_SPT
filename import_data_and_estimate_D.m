@@ -5,7 +5,7 @@ data=importdata(filename);
 units_time = extractBefore(data.textdata{1},',');
 units_dist = extractAfter(data.textdata{1}, ',');
 
-M =  max(data.data(:,1));
+M = max(data.data(:,1));
 
 t_cell   = cell(M,1);
 wx_cell  = cell(M,1);
